@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Form Detection</title></head>
+<body>
+<form name="contact-duneshore" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact-duneshore">
+  <div style="display:none;"><input name="bot-field"></div>
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="text" name="organisation" placeholder="Organisation">
+  <select name="enquiry_type">
+    <option value="operator">Operator or JV partner</option>
+    <option value="information">General information</option>
+    <option value="other">Other</option>
+  </select>
+  <textarea name="message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+</body>
+</html>
